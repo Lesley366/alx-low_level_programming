@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: 0 after printing the function 
+ * Return: 0 after printing thr function
  */
 int main(void)
 {
