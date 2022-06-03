@@ -12,6 +12,6 @@ int main(void)
 	{
 		printf("%i\n", i);
 	}
-	
+
 return (0);
 }
