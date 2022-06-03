@@ -9,12 +9,12 @@ int main(void)
 	int ch;
 	int ph;
 
-	for (ch = 'a' ; ch = 'z' ; ch++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
 		putchar(ch);
 	}
 
-	for (ph = 'A' ; ph = 'Z' ; ch++)
+	for (ph = 'A' ; ph <= 'Z' ; ch++)
 	{
 		putchar(ph);
 	}
