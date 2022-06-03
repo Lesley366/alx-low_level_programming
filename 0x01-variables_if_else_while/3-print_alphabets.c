@@ -14,7 +14,7 @@ int main(void)
 		putchar(ch);
 	}
 
-	for (ph = 'A' ; ph <= 'Z' ; ch++)
+	for (ph = 'A' ; ph <= 'Z' ; ph++)
 	{
 		putchar(ph);
 	}
