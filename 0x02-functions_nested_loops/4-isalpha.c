@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _aslapha - Returns 1 if c is a letter, lowercase or uppercase
+ * isalpha - Returns 1 if c is a letter, lowercase or uppercase
  * @c: int printed
  * Return: Always 0.
  */
