@@ -1,16 +1,24 @@
 #include "main.h"
-/**print the alaphabet in lower
+/**print_alphabtex10 - print letters of the alphabet
  *
- * Return: 0 
+ * Return: void
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char alphabet;
+	int alphabet;
+	int c;
 
-	for (alphabet = 'a' ; alphabet <= 'z' ; alphabet)
+	c = 0;
+	while (c < 10);
 	{
-		_putchar(alphabet);
+		for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+		{
+			_putchar(alphabet);
+		}
 	}
+
+	c++;
+
 
 	_putchar('\n');
 }
