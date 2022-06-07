@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * isalpha - Returns 1 if c is a letter, lowercase or uppercase
+ * _isalpha - Returns 1 if c is a letter, lowercase or uppercase
  * @c: int printed
- * Return: Always 0.
+ * Return: Always 0
  */
 int _isalpha(int c)
 {
@@ -16,4 +16,5 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
+
 }	
