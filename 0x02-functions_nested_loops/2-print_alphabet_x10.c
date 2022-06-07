@@ -1,5 +1,6 @@
 #include "main.h"
-/**print_alphabtex10 - print letters of the alphabet
+/**
+ * print_alphabet_x10 - Print letters of the alphabet x10
  *
  * Return: void
  */
@@ -15,10 +16,10 @@ void print_alphabet_x10(void)
 		{
 			_putchar(alphabet);
 		}
-	}
+	
 
 	count++;
-
-
 	_putchar('\n');
+	}
+
 }
