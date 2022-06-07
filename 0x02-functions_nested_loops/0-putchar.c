@@ -1,19 +1,20 @@
-#include "man.h"
+#include "main.h"
 /**
- * main - entry point
+ * main -entry point
  *
  * Return: 0 (correct)
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char c[9] = "_putchar";
+	int n;
 
-	_putchar('\n')
+	for (n = 0 ; n < 9 ; n++)
+	{
+		_putchar(c[n]);
+	}
+
+	_putchar('\n');
+
+return (0);
 }
