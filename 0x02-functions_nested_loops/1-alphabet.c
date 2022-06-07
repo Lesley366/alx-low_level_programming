@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphanet - print alphabet lowercase
- * Description: print letters of the alphabet in lowercase
+ * print_alphanet - Function prototype
+ * Description: PrintS the letters of the alphabet in lowercase
  * Return: void
  */
 void print_alphabet(void)
