@@ -4,9 +4,7 @@
  *
  * Rerurn: Always 0
  */
-/**
- * function declaration
- */
+
 void print_alphabet(void)
 {
 	char alphabet;
