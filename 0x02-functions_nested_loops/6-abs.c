@@ -5,21 +5,21 @@
  * @n: int print
  * Return: Always 0.
  */
-int _abs(int p)
+int _abs(int n)
 {
-	if (p < 0)
+	if (n < 0)
 	{
-		return (p * (1));
+		return (n * (1));
 	}
 
-	else if (p == 0)
+	else if (n == 0)
 	{
 		return (0);
 	}
 
-	else 
+	else
 	{
-		return (p);
+		return (0);
 	}
 
 }
