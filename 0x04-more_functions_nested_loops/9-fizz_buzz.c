@@ -3,12 +3,12 @@
 /**
  * main - Entry point
  *
- * Rerurn: Always 0
+ * Rerurn: void
  */
 int main(void)
 {
 	int i;
-	{
+
 		for (i = 1; i <= 100; i++)
 		{
 			if (i % 3 == 0 && i % 5 != 0)
@@ -36,7 +36,5 @@ int main(void)
 
 			return (0);
 		}
-
-	}
 
 }
