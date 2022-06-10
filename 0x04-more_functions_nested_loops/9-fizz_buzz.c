@@ -15,7 +15,7 @@ int main(void)
 			{
 				printf("Fizz");
 			}
-			else if (i % 5 == 0 && i % 3 != 0)
+			else if (i % 3 != 0 && i % 5 == 0)
 			{
 				printf("Buzz");
 			}
@@ -27,14 +27,14 @@ int main(void)
 			{
 				printf("%d", i);
 			}
-			else
+			else 
 			{
 				printf("%d", i);
 			}
 
-			printf("\n");
-
-			return (0);
 		}
+		printf("\n");
+		
+		return (0);
 
 }
