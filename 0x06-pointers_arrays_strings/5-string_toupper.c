@@ -4,7 +4,6 @@
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @s: string
  * Return: dest
- * @c: count
  */
 char *string_toupper(char *s)
 {
