@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * argstostr - concatenates all the arguments of a program
- * @ac: argument count 
- * @v: argument vector
+ * @ac: argument count
+ * @av: argument vector
  * Return: Always 0
  */
 char *argstostr(int ac, char **av)
