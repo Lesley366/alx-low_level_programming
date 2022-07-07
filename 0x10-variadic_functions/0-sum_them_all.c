@@ -6,7 +6,7 @@
  * @n: The number of paramters passed to the function
  * @n: The number of paramters passed to the function
  *
- * Return: If n == 0 - 0
+ * Return: If n == 0 
  */
 int sum_them_all(const unsigned int n, ...)
 {
