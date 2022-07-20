@@ -6,7 +6,7 @@
  * @index: index of the list where the node is
  * deleted
  *
- * Return: 1 if it succeeded, -1 if it failed
+ * Return: node
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index){
 	unsigned int i;
